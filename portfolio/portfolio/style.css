@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+body{
+    background-image: url(https://img2.wallspic.com/previews/7/8/7/8/0/108787/108787-texture-brown-paper-550x310.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 200px;
+    width: 100%;
+}
+.wrapper{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.wrapper > div > img{
+    width: 600px;
+    height: 400px;
+    align-items: center;
+}
+.wrapper > div{
+    border: solid 2px white;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+   color: white;
+ 
+}
